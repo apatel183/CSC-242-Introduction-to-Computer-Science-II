@@ -1,0 +1,56 @@
+want this to work (print pattern)
+
+>>> from review import *
+>>> pattern(1)
+1
+>>> pattern(1,2)
+  1
+>>> pattern(2)
+ 1
+121
+ 1
+>>> pattern(2,3)
+    1
+   121
+    1
+>>> pattern(3)
+  1
+ 121
+  1
+12321
+  1
+ 121
+  1
+>>> pattern(4)
+   1
+  121
+   1
+ 12321
+   1
+  121
+   1
+1234321
+   1
+  121
+   1
+ 12321
+   1
+  121
+   1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

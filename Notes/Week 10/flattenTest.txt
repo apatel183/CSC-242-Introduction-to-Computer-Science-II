@@ -1,0 +1,9 @@
+
+>>> from review import *
+>>> flatten(3)==[3]
+True
+>>> flatten([3,4])==[3,4]
+True
+>>> lst = [1,2,[3,[[4]],5],6,7,[8],9]
+>>> flatten(lst)==[1,2,3,4,5,6,7,8,9]
+True
